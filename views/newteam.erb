@@ -4,8 +4,18 @@
   <meta charset="UTF-8">
   <title>Basketball Team Signup</title>
  </head>
+
  <body>
+  <form action ="/team" method= "POST">
+ <h3>Team Name: <input type="text" id="name" name= "name"></h3>
+ <h3>Coach: <input type="text" id="coach" name= "coach"></h3>
+ <h3>Point Guard: <input type="text" id="pg" name="pg"></h3>
+ <h3>Shooting Guard: <input type="text" id="sg" name="sg"></h3>
+ <h3>Small Forward: <input type="text" id="sf" name="sf"></h3>
+ <h3>Power Forward: <input type="text" id="pf" name="pf"></h3>
+ <h3>Center: <input type="text" id="c" name="c"></h3>
+ <h3>Submit: <input type="submit" name="Submit" id="Submit"><h3>
+  <%=params.inspect%>
+  </form>
  </body>
 </html>
-
-
